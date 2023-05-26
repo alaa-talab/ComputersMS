@@ -1,0 +1,88 @@
+   body {
+                font-family: 'Nunito', sans-serif;
+            }
+    nav a { padding: .5rem;}
+    
+    li:hover {
+
+        background: #f74747;
+    }
+    
+    li {
+
+        list-style-type: none;
+        border: 1px solid;
+        border-radius: 5px;
+        background: antiquewhite;
+        padding: 10px;
+        margin: 5px;
+
+    }
+
+    /* Form container */
+.max-w-6xl {
+    max-width: 960px; /* Adjust as needed */
+  }
+  
+  /* Form fields */
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  .form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  .form-field input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  .form-field button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-field button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-error {
+
+    margin: 0;
+    font-size: .8rem;
+    color:#f74747;
+  }
+
+  .edit-btn {
+
+color:lightblue;
+text-decoration: underline;
+font-size: .8rem;
+
+  }
+
+  .delete-btn {
+
+    color:palevioletred;
+    text-decoration: underline;
+    font-size: .8rem;
+    background: none;
+    padding: 0;
+
+      }
+  
+  
